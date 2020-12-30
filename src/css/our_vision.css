@@ -1,0 +1,89 @@
+/*------------------------------------------------- Header --------------------------------------------------------*/
+.ourVision-header{
+    background-image: url("../img/page-title-1.jpg");
+    position: relative;
+}
+.ourVision-header .black{
+    background-color: black;
+    width: 100%;
+    opacity: 0.8;
+}
+.ourVision-header .container{
+    text-align: center;
+    padding: 200px 0px 100px 0px;
+}
+.ourVision-header .container .our-title{
+   
+}
+.ourVision-header .container .home{
+    padding: 20px 0px;
+}
+@media only screen and (max-width: 900px){
+    .ourVision-header .container .our-title{
+        font-size: 25px;
+    }
+    .ourVision-header .container .home{
+        padding: 200px 0px 100px 0px; 
+    }
+    .ourVision-header .container{
+        text-align: center;
+        padding: 100px 0px; 
+    }
+}
+/*----------------------------------------------- ./Header --------------------------------------------------------*/
+
+/*----------------------------------------------- Middle ----------------------------------------------------------*/
+.middle{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 130px 10px;
+}
+.middle .item{
+
+}
+
+.middle #item1 .myhrleft{
+    height: 4px;
+    width: 30px;
+}
+.middle #item1 .first-heading, .middle #item1 .first-heading span{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.middle #item1 .second-heading, .middle #item1 .second-heading span{
+    margin-top: 40px;
+    font-weight: 600;
+}
+.middle #item1 .third-heading, .middle #item1 .third-heading span{
+    margin-top: 40px;
+    font-weight: 600;
+}
+.middle #item2{
+    padding: 0px 10px;
+}
+.middle #item2 img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px 20px;
+    
+}
+
+@media only screen and (max-width: 768px){
+    .middle{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 20px 10px;
+    }
+    .middle #item1{
+        padding: 0px 10px;
+    }
+    .middle #item2 img{
+        padding: 10px 0px;
+        
+    }
+}
+/*----------------------------------------------- ./middle --------------------------------------------------------*/
+
+
+

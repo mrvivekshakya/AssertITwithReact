@@ -1,0 +1,97 @@
+/* ----------------------------------------- Form Section -----------------------------------------------------------------*/
+.contact{
+    display: flex;
+    /* border: 20px solid red; */
+}
+.contact .contactItem{
+    width: 50%;
+    padding: 0px 30px;
+}
+@media only screen and (max-width: 768px){
+    .contact{
+        display: block;
+    }
+    .contact .contactItem{
+        width: 100%;
+    }
+    .contact #contactItem2{
+        padding: 0px 10px 20px 10px;
+    }
+    .contact #contactItem1{
+        padding: 0px 10px 20px 10px;
+    }
+}
+.contact .contactItem .heading{
+    font-size: 32px;
+}
+.contact .contactItem .assert-email{
+    padding: 3px 0px;
+    font-size: 20px;
+}
+.contact .contactItem .assert-phone{
+    padding: 3px 0px;
+    font-size: 20px;
+}
+.contact .contactItem .assert-email span{
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+}
+.contact .contactItem .assert-phone span{
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+}
+.contact .contactItem .text{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.home-form{
+
+}
+.home-form .mybtn{
+    color: white;
+    height: 45px;
+    padding: 0px;
+    border-radius: 25px 25px 25px 25px;
+    border: none;
+}
+.home-form input{
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    color: #333;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.home-form textarea{
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    color: #333;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.home-form input:focus{
+    outline: none;
+    border:1px solid #0674fd;
+}
+.home-form textarea:focus{
+    outline: none;
+    border:1px solid #0674fd;
+}
+.home-form input::placeholder{
+    font-family: sans-serif;
+    font-weight: 500px;
+    color: #333;
+    font-size: 15px;
+
+}
+/* ----------------------------------------- ./Form Section -----------------------------------------------------------------*/

@@ -1,0 +1,106 @@
+/*------------------------------------------------- Header --------------------------------------------------------*/
+.ourVision-header{
+    background-image: url("../img/page-title-1.jpg");
+    position: relative;
+}
+.ourVision-header .black{
+    background-color: black;
+    width: 100%;
+    opacity: 0.8;
+}
+.ourVision-header .container{
+    text-align: center;
+    padding: 200px 0px 100px 0px;
+}
+.ourVision-header .container .our-title{
+  
+}
+.ourVision-header .container .home{
+    padding: 20px 0px;
+}
+@media only screen and (max-width: 900px){
+    .ourVision-header .container .our-title{
+        padding-top: 60px;
+        font-size: 25px;
+    }
+    .ourVision-header .container .home{
+        padding: 10px 0px 10px 0px; 
+    }
+    .ourVision-header .container{
+        text-align: center;
+        padding: 100px 0px; 
+    }
+}
+/*----------------------------------------------- ./Header --------------------------------------------------------*/
+
+/*----------------------------------------------- Middle ----------------------------------------------------------*/
+.who-middle{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 130px 10px;
+}
+
+.who-middle #item1 .myhrleft{
+    height: 4px;
+    width: 30px;
+}
+.who-middle #item1 .texts .textDiv{
+    display: flex;
+    align-items: center;
+    
+}
+.who-middle #item1 .texts{
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.who-middle #item1 .texts .textDiv{
+    margin-top: 10px;
+}
+.who-middle #item1 .texts .textDiv .forIcon{
+    background-image: linear-gradient(to right,#0674fd,#00d0f9);
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+}
+
+
+.who-middle #item2{
+    padding: 0px 10px;
+}
+.who-middle #item2 img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px 20px;
+    
+}
+
+@media only screen and (max-width: 768px){
+    .who-middle{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 20px 10px;
+    }
+    .who-middle #item1{
+        padding: 0px 10px;
+    }
+    .who-middle #item2 img{
+        padding: 10px 0px;
+        
+    }
+    .who-middle #item1 .texts{
+        padding-left: 5px;
+        margin-top: 20px;
+    }
+}
+/*----------------------------------------------- ./middle --------------------------------------------------------*/
+
+
+

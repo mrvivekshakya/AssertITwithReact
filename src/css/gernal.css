@@ -1,0 +1,293 @@
+
+.ct-heading h3.ct-heading-tag {
+    font-size: 44px;
+    line-height: 1.25;
+    margin-bottom: 24px;
+    position: relative;
+}
+.heading-default-font h1, .heading-default-font h2, .heading-default-font h3, .heading-default-font h4, .heading-default-font h5, .heading-default-font h6, .heading-default-font .h1, .heading-default-font .h2, .heading-default-font .h3, .heading-default-font .h4, .heading-default-font .h5, .heading-default-font .h6 {
+    font-family: 'Poppins',sans-serif;
+}
+h3, .h3 {
+    font-display: swap;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: normal;
+    color: #252a37;
+    clear: both;
+    line-height: 1.25;
+    margin: 0 0 15px;
+    font-weight: 600;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.text-left, .align-left {
+    text-align: left;
+}
+body.body-default-font {
+    font-family: 'Roboto',sans-serif;
+}
+body, p {
+    font-family: Poppins!important;
+}
+body {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.8125;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    font-weight: normal;
+    letter-spacing: 0;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #868e96;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #868e96;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: "SFMono-Regular",Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}  
+a{
+    text-decoration: none;
+
+} 
+a:hover{
+    text-decoration: none;
+    color: var(--gray-dark);
+}
+*::selection{
+    background-color: black;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.mainContainer{
+    width: 100%;
+    background-color: yellow;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 0px;
+    
+}
+.title{
+    color: #0674fd;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    font-family: var(--font-family-sans-serif);
+}
+.heading{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 30px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.blue-heading{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 30px;
+    font-family: 'Poppins',sans-serif;
+    color: #0674fd;
+}
+.white-small-heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    line-height: 35px;
+    font-family: 'Poppins',sans-serif;
+}
+.small-heading{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    font-family: 'Poppins',sans-serif;
+}
+.middle-heading{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 35px;
+    font-family: 'Poppins',sans-serif;
+}
+.middle-white-heading{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    line-height: 35px;
+    font-family: 'Poppins',sans-serif;
+}
+.stylish-heading{
+    font-family: 'Playfair Display',serif;
+    word-spacing: 0px;
+    font-style: italic;
+    background: -webkit-linear-gradient(#0674fd,#00d0f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.61;
+    letter-spacing: 0.005em;
+    
+}
+.white-text{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+    line-height: 1.61;
+    letter-spacing: 0.005em;
+}
+.bold-text{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.61;
+    letter-spacing: 0.005em;
+   
+}
+.background-text{
+    font-family: 'Roboto',sans-serif;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+    font-size: 120px;
+    font-weight: 800;
+    color:#0674fd;
+    opacity: 0.1;
+}
+.myhrleft{
+    height: 5px;
+    background-color: #0674fd;
+    border: none;
+    width: 50px;
+    padding-left: 10px;
+}
+.myhrcenter{
+    height: 5px;
+    background-color: #0674fd;
+    border: none;
+    margin: auto;
+    width: 50px;
+}
+.mybtn{
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 32px;
+    line-height: 50px;
+    text-decoration: none !important;
+    touch-action: manipulation;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 30px 30px 30px 30px;
+    background-image: linear-gradient(to right,#0674fd,#00d0f9);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.footer-text{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.005em;
+    display: inline-block;
+
+}
+.bold-footer-text{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.005em;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px){
+    .heading{
+        font-size: 35px;
+    }
+    .blue-heading{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,198 @@
+/*--------------------------------------------------General-------------------------------------------------------*/
+.blink{
+    font-weight: 1000;
+    color: #0674fd;
+    font-size: 15px;
+}
+.blink:hover{
+    font-weight: 1000;
+    color: #00d0f9
+}
+.btext{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.61;
+    letter-spacing: 0.005em;
+}
+.bold-btext{
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.61;
+    letter-spacing: 0.005em;
+}
+/*---------------------------------------------- ./General -------------------------------------------------------*/
+.tags{
+    display: block;
+}
+.tags .tags-title{
+    font-weight: 500;
+    margin-right: 10px;
+}
+.tags .tag{
+    outline: none;
+    border: 0.5px solid #0674fd;
+    border-radius: 25px 25px 25px 25px;
+    padding: 8px 15px;
+    background-color: white;
+    margin: 5px;
+}
+.tags .tag:hover{
+    background-color:  #0674fd;
+    color: white;
+    /* font-weight: 500; */
+}
+.tags .tag{
+    color: gray;
+    
+}
+.social #pinterest{
+    background-color: rgb(179, 21, 21);
+}
+.dot{
+    visibility: hidden;
+}
+.secondMain #secondMain-item1 .small-heading{
+    font-weight: 500;
+    font-size: 23px;
+    text-align: left;
+    margin-top: 40px;
+}
+.secondMain #secondMain-item1 .myhrleft{
+    height: 3px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.down-side{
+    padding: 0px 40px;
+}
+
+.pre-next{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-top: 0.5px solid lightgray;
+    padding: 20px 0px;
+    border-bottom: 0.5px solid lightgray;
+    margin-top: 20px;
+}
+.pre-next .pre{
+    text-align: left;
+    font-weight: 600;
+}
+.pre-next .next{
+    text-align: right;
+    font-weight: 600;
+}
+.pre-next .pre:hover .fa-angle-double-left{
+    color: #0674fd;
+}
+.pre-next .next:hover .fa-angle-double-right{
+    color: #0674fd;
+}
+.pre-next .pre:hover a{
+    color: #0674fd;
+}
+.pre-next .next:hover a{
+    color: #0674fd;
+}
+.pre-next .pre span{
+    margin-right: 10px;
+}
+.pre-next .next span{
+    margin-left: 10px;
+}
+
+/*********************************comment Section ***********************************/
+.home-form{
+    
+}
+.inputs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.inputs #inputs-item2{
+    padding: 0px 30px;
+}
+
+.home-form .mybtnb{
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 32px;
+    line-height: 50px;
+    text-decoration: none !important;
+    touch-action: manipulation;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 30px 30px 30px 30px;
+    background-image: linear-gradient(to right,#0674fd,#00d0f9);
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.home-form .mybtnb:hover{
+    background-image: linear-gradient(to right,black,black);
+}
+.home-form .mybtnb:hover a{
+    color: white;
+}
+
+.home-form input{
+    width: 100%;
+    padding: 11px 20px;
+    outline: none;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    color: #333;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.home-form textarea{
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    color: #333;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.home-form input:focus{
+    outline: none;
+    border:1px solid #0674fd;
+}
+.home-form textarea:focus{
+    outline: none;
+    border:1px solid #0674fd;
+}
+.home-form input::placeholder{
+    font-family: sans-serif;
+    font-weight: 500px;
+    color: #333;
+    font-size: 15px;
+
+}
+@media only screen and (max-width:800px){
+    .inputs{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .inputs #inputs-item2{
+        padding: 0px 0px;
+    }
+    .down-side{
+        padding: 0px 22px;
+    }
+    .home-form .mybtnb{
+        width: 100%;
+    }
+}
