@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Navigation from './Navigation';
 
 class Header extends React.Component{

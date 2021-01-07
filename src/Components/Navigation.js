@@ -17,11 +17,12 @@ import PPCServices from '../Pages/services/PPC-Services';
 import AurPortfolio from '../Pages/OurPortfolio';
 import Blogs from '../Pages/Blogs';
 import ContactUs from '../Pages/ContactUs';
+import NotFound from '../Components/notfound'  
 
 
 
 
-import { Route, Link,NavLink, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Link,NavLink, BrowserRouter as Router, Switch } from 'react-router-dom';
 import OurPortfolio from '../Pages/OurPortfolio';
 
 class Navigation extends React.Component{
@@ -70,10 +71,9 @@ class Navigation extends React.Component{
             </div>
 
 
-
-            <Route exact path="/" component={Home} />  
+            {/* <Route exact path="/" component={Home} /> */}
             <Route path="/aboutus" component={AboutUs} />  
-            <Route path="/aur-vision" component={AurVision} />
+            {/* <Route path="/aur-vision" component={AurVision} />
             <Route path="/who-we-are" component={WhoWeAre} />
             <Route path="/aur-services" component={aurServices} /> 
             <Route path="/website-design-and-development" component={WDDServices} />
@@ -82,12 +82,10 @@ class Navigation extends React.Component{
             <Route path="/social-media-marketing" component={SMOServices} />
             <Route path="/search-engine-optimization" component={SEOServices} />
             <Route path="/pay-per-click-advertisement" component={PPCServices} />
-            <Route path="/our-portfolio" component={OurPortfolio} />
+            <Route path="/our-portfolio" component={AurPortfolio} />
             <Route path="/blogs" component={Blogs} />
             <Route path="/contact-us" component={ContactUs} />
-
-              
-
+            <Route component={NotFound} />   */}
         </nav>
         </Router>  
         </>

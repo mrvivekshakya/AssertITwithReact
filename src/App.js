@@ -1,23 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './css/index.css';
 import './css/gernal.css';
-import Navigation from './Components/Navigation';
+import Header from './Components/Header';
 import Home from './Pages/Home';
 
 class App extends React.Component{
     constructor(props){
         super(props);
-        this.state = {};
+        this.state = {username:"Vivek Shakya"};
     }
     render(){
         return(
             <>
-              {/* <Header /> */}
-              <Home />
+              <Header />
             </>
         );
-    }   
+    }
 }
 
 export default App;

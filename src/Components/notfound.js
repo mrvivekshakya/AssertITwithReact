@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header';
 
-class Home extends React.Component{
+class NotFound extends React.Component{
     constructor(props){
         super(props);
         this.state = {};
@@ -9,11 +9,10 @@ class Home extends React.Component{
     render(){
         return(
             <>
-                <Header />
-                Home Page
+                The Given Request cann't be Handle
             </>
         )
     }
 }
 
-export default Home;
+export default NotFound;
