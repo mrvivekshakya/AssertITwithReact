@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PageHeader from '../../Components/PageHeader';
+import Main from './AurVision Components/Main';
+import '../../css/gernal.css';
+import '../../css/our_vision.css';
+
+
 
 class AurVision extends React.Component{
     constructor(props){
@@ -9,7 +15,10 @@ class AurVision extends React.Component{
     render(){
         return(
             <>
-                Welcome to Aur Vision
+                <PageHeader pageTitle="Aur Vision"/>
+                <Main />
+                
+            
             </>
         )
     }

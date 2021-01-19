@@ -11,9 +11,10 @@ class Upper extends React.Component{
     render(){
         return(
             <>
-                <div className="heading first-heading">{this.state.text}</div>
+                <div className="heading first-heading">{this.state.heading}</div>
                 <hr className="myhrleft" />
                 <p className="text">{this.state.text}</p>
+
             </>
         );
     }

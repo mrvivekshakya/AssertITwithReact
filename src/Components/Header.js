@@ -9,7 +9,7 @@ class Header extends React.Component{
     render(){
         return(
             <>
-                <Navigation />
+               
                 <div style={{backgroundColor:"Black",height:"100px"}}></div>
             </>
         )

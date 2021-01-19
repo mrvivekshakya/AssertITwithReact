@@ -1,5 +1,8 @@
 import React  from 'react';
 import Upper from './Upper';
+import Lower from './Lower';
+import LeftImage from './LeftImage';
+
 const uppperContent = [
     {
         heading: "Who We Are?",
@@ -17,9 +20,11 @@ class Main extends React.Component{
             <>
                 <div className="container who-middle">
                     <div className="item" id="item1">
-                        <uppper heading={uppperContent.heading} text={uppperContent.heading} />
+                        <Upper heading={uppperContent[0].heading} text={uppperContent[0].text} />
+                        <Lower />
 
                     </div>
+                    <LeftImage />
                 </div>
             
             </>

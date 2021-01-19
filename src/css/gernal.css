@@ -241,6 +241,7 @@ body{
     border: none;
     width: 50px;
     padding-left: 10px;
+    margin-bottom: 30px;
 }
 .myhrcenter{
     height: 5px;
@@ -290,4 +291,7 @@ body{
     .blue-heading{
         font-size: 35px;
     }
+}
+p{
+    padding-top: 10px;
 }
